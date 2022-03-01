@@ -1,10 +1,10 @@
 import "./Header.css";
 
-function Header() {
+function Header(props) {
    return (
       <div className="Header flex-row">
          <h1 className="title"> galleria. </h1>
-         <button type="button">START SLIDESHOW</button>
+         <button type="button" onClick={()=>props.setSlideShow(!props.slideShow)}>START SLIDESHOW</button>
       </div>
    );
 }
