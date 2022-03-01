@@ -1,0 +1,15 @@
+/**************** For mobile phones: ****************/
+
+@media only screen and (min-width: 600px) {
+   /* For tablets: */
+   .Main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      text-align: center;
+   }
+}
+
+@media only screen and (min-width: 768px) {
+   /* For desktop: */
+}

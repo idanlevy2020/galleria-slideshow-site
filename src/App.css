@@ -1,0 +1,24 @@
+/*****************general settings *****************/
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+/**************** For mobile phones: ****************/
+.app-content{
+  margin:0px 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .app-content{
+    margin:0px 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .app-content{
+    margin:0px 20px;
+  }
+} 

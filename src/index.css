@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+/*****************general settings *****************/
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+/*****************end general Settings *****************/

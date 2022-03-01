@@ -1,0 +1,14 @@
+.Header{
+   justify-content: space-between;
+}
+
+.Header button{
+   background-color: white;
+   color: gray;
+   font-weight: bold;
+   border:none;
+}
+
+.Header button:hover{
+   color: black;
+}

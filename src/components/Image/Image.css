@@ -1,0 +1,51 @@
+.Image {
+   position: relative;
+   display: inline-block;
+   text-align: center;
+   margin-bottom: 10px;
+   height: fit-content;
+}
+
+.text_on_image {
+   display: none;
+   color: white;
+}
+
+img:hover {
+   filter: brightness(70%);
+}
+
+.Image:hover .text_on_image {
+   position: absolute;
+   bottom: 10px;
+   width: 100%;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+}
+
+.Image:hover .text_on_image span {
+   background-color: #202020;
+   border-radius: 5px;
+   padding: 2px 5px;
+}
+
+.Image img {
+   width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+   /* For tablets: */
+   .Image {
+      min-width: 200px;
+      max-width: 340px;
+      margin-bottom: 15px;
+   }
+}
+
+@media only screen and (min-width: 768px) {
+   /* For desktop: */
+   .Image {
+      margin-bottom: 20px;
+   }
+}
